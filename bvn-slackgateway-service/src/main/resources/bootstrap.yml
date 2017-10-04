@@ -1,0 +1,15 @@
+### This is the spring application name, all discovery client MUST have the discovery 
+### Service name bvn-config-service in their bootstrap.yml files 
+spring:
+  application:
+    name: bvn-slackgateway-service
+  cloud:
+    config:
+      uri: http://BVDevAthenaVM:${config.port:8888}
+      
+  profiles:
+    # optional comma sep list of profiles
+    active: common,db
+     
+      
+  

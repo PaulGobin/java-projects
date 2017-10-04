@@ -1,0 +1,5 @@
+Slack App Credentials:
+ClientID: 26986081046.158128338226
+ClientSecret: 540730a1c4bc00d2fe56e93d193143b5
+
+https://api.slack.com/apps/A4N3S9Y6N?created=1
